@@ -10,33 +10,38 @@
 </head>
 
 <body>
+
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <input type="checkbox" class="menu__hamburguer" id="menu">
             <label for="menu">
-                <span ><img src="assets/img/menu_hamburguer.svg" alt="menu"></span>
+                <span><img src="assets/img/menu_hamburguer.svg" alt="menu"></span>
             </label>
-            <ul class="opcoes_menu">
-                <li class="opcoes_menu__texto"><p>Menu</p></li>
-                <li class="opcoes_menu__link"><a href="#">Home</a></li>
-                <li class="opcoes_menu__link"><a href="#">Pontos</a></li>
-                <li class="opcoes_menu__link"><a href="#">Contatos</a></li>
-                <li class="opcoes_menu__link"><a href="#">Produtos</a></li>
-                <li class="opcoes_menu__link"><a href="#">Pesquisar</a></li>
-            </ul>
-            <a href="" class="cabecalho__menu__link__texto">Logo</a>
-            <a href="" class="cabecalho__menu__link"><img src="assets/img/perfil.svg" alt="icone de perfil"></a>
+            <div class="divisao_menu">
+                <ul class="opcoes_menu">
+                    <li class="opcoes_menu__texto">
+                        <p>Menu</p>
+                    </li>
+                    <li class="opcoes_menu__link"><a href="#">Home</a></li>
+                    <li class="opcoes_menu__link"><a href="#">Pontos</a></li>
+                    <li class="opcoes_menu__link"><a href="#">Contatos</a></li>
+                    <li class="opcoes_menu__link"><a href="#">Produtos</a></li>
+                    <li class="opcoes_menu__link"><a href="#">Pesquisar</a></li>
+                </ul>
+                <div class="cabecalho__menu__container">
+                    <a href="" class="cabecalho__menu__link__texto logo">Logo</a>
+                    <a href="" class="cabecalho__menu__link"><img src="assets/img/perfil.svg" alt="icone de perfil"></a>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="principal">
         <h1 class="principal__titiulo">Título principal</h1>
-
-
-
     </main>
     <footer class="rodape">
         <p class="rodape__texto">Desenvolvido por Rafael e Luis</p>
     </footer>
+
 </body>
 
 </html>
