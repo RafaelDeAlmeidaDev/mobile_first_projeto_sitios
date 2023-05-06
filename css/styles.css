@@ -1,0 +1,107 @@
+@import url(reset.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-principal: #0A4D68;
+    --cor-secundaria: #088395;
+    --cor-fonte-branca: #fff;
+    --cor-fonte-amarelo: #EB9B00;
+    --cor-fonte-preto: #000;
+}
+
+/* tags */
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* class */
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cabecalho__menu {
+    background: linear-gradient(var(--cor-principal), var(--cor-secundaria));
+    height: 5, 1875em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.opcoes_menu{
+    background-color: var(--cor-fonte-branca);
+    font-size: 1em;
+    font-weight: 400;
+    display: none;
+    width: 60%;
+    position: absolute;
+    top: 100%;
+    
+
+}
+.menu__hamburguer{display: none;}
+
+.menu__hamburguer:checked~.opcoes_menu{
+    display: block;
+}
+
+.opcoes_menu__link{
+    padding: 1em 4em 1em 0;
+    
+    
+}
+.opcoes_menu__link a{
+    text-decoration: none;
+    color: var(--cor-fonte-preto);
+    
+}
+
+.opcoes_menu__texto{
+    color: var(--cor-fonte-amarelo);
+    font-size: 1.7;
+    font-weight: 700;
+}
+
+.cabecalho__menu__link img,
+.cabecalho__menu__link__texto {
+    height: 3, 9375em;
+}
+
+.cabecalho__menu__link__texto {
+    color: var(--cor-fonte-branca);
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.principal {
+    text-align: center;
+    min-height: 100vh;
+}
+
+.principal__titiulo {
+    font-size: 3em;
+    margin-top: 3em;
+    font-weight: 800;
+    color: var(--cor-fonte-preto);
+}
+
+.rodape {
+    background: linear-gradient(var(--cor-principal), var(--cor-secundaria));
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-fonte-branca);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@media all and (min-width:801px){
+    
+}
