@@ -1,0 +1,94 @@
+.cabecalho {
+    position: relative;
+    grid-area: cabecalho;
+    background: linear-gradient(var(--cor-principal), var(--cor-secundaria));
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--cor-fonte-branca);
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.menu-input {
+    display: none;
+}
+
+.menu {
+    background-image: url('../assets/img/menu_hamburguer.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 2.1em;
+    width: 3.8em;
+
+    z-index: 1;
+}
+
+.menu:active{
+    background-image: url('../assets/img/menuchecked.svg');
+}
+ 
+.cabecalho__menu__links {
+    width: 60%;
+    background-color: var(--cor-fonte-branca);
+    color: var(--cor-fonte-preto);
+    padding: 1em;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+
+}
+
+.menu-input:checked~.cabecalho__menu__links {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+}
+
+.cabecalho__menu__links .cabecalho__menu__links__item a, .cabecalho__menu__links .abecalho__menu__links__item p{
+    display: block;
+    padding: 0.5em;
+}
+
+
+
+.cabecalho__menu__links__titulo {
+    font-family: var(--fonte-links);
+    font-size: 1.4em;
+    font-weight: 700;
+
+    color: var(--cor-fonte-amarelo)
+}
+
+.cabecalho__menu_links__item a{
+    display: block;
+    margin-top: 1em;
+    font-family: var(--fonte-links);
+    font-weight: 400;
+    font-size: 1em;
+
+}
+
+.cabecalho__menu__links__item a {
+    color: linear-gradient(var(--cor-principal), var(--cor-secundaria));
+    text-decoration: none;
+
+}
+
+.logo {
+    font-family: 'Noto Sans';
+    font-size: 2.25em;
+    color: var(--cor-fonte-branca);
+    font-weight: 400;
+    text-decoration: none;
+}
