@@ -43,15 +43,6 @@ body {
 
 
 
-.principal {
-    grid-area: main;
-    display: flex;
-    justify-content: center;
-
-}
-
-
-
 .rodape {
     grid-area: rodape;
     background: linear-gradient(var(--cor-principal), var(--cor-secundaria));
@@ -61,4 +52,8 @@ body {
     align-items: center;
 }
 
-@media all and (min-width:801px) {}
+@media all and (min-width:801px) {
+    .menu, .cabecalho__menu__links__item, .cabecalho__menu__links{
+        display: none;
+    }
+}

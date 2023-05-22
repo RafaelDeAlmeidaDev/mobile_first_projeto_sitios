@@ -1,8 +1,4 @@
-.principal{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
+
 
 .posts{
     display: flex;
@@ -11,25 +7,30 @@
 }
 
 .principal__titulo{
+    display: block;
+    text-align: center;
     color: var(--cor-fonte-amarelo);
     font-size: 2em;
     margin-bottom: 0.5em;
+    
 }
 
 .card{
+    width: 100%;
     max-width: 306px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     border: 1px solid #000000;
-    padding: 0.5em;
+    padding: 1em;
     font-family: --fonte-secundaria;
-    margin-bottom: 1em;
+    margin: 1em;
 }
 
 .card__titulo{
     color: var(--cor-fonte-preto);
     font-size: 1.2em;
+    flex-basis: 100%;
 
 }
 
