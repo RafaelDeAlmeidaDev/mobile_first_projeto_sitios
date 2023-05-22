@@ -53,7 +53,27 @@ body {
 }
 
 @media all and (min-width:801px) {
-    .menu, .cabecalho__menu__links__item, .cabecalho__menu__links{
+    .menu, .cabecalho__menu__links__titulo{
         display: none;
     }
+
+    .cabecalho__menu__links{
+        display: flex;
+        background: transparent;
+        position: static;
+        order: 1;
+
+    }
+
+    .perfil{
+        order: 2;
+    }
+
+    .cabecalho__menu__links__item a{
+        border: 3px solid var(--cor-fonte-branca);
+        border-radius: 14px;
+        margin: auto 0.5em;
+
+    }
+
 }
