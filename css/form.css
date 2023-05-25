@@ -44,9 +44,26 @@ input[type="submit"]{
     
 }
 
-.contato_principal__texto-conexao{
+.mensagem{
+    height: 73px;
+}
+
+.contato_principal__texto-conexao, .link_login{
     font-family: var( --fonte-primaria);
     color: var(--cor-fonte-preto);
     font-weight: 400;
+
+}
+
+.link_login{
+    align-self: center;
+}
+
+.link_login a{
+    text-decoration: none;
+    color: var(--cor-fonte-preto);
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+
 
 }

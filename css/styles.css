@@ -60,6 +60,7 @@ body {
     }
 
     .cabecalho__menu__links{
+        max-width: 40%;
         display: flex;
         background: transparent;
         position: static;
