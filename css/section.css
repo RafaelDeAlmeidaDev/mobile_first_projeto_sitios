@@ -1,0 +1,36 @@
+.titulo_sobre_principal{
+    text-align: left;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.principal__secao, .sobre_titulo{
+    margin: 0.75em 0;
+}
+
+.principal__secao{
+    width: 80%;
+    margin: 0 auto 1em auto;
+}
+
+
+.sobre_titulo{
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.principal__secao__imagem{
+    max-width: 100%;
+}
+
+.principal__secao__article__container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.principal__secao__article__container__titulo{
+    margin: 0;
+}
