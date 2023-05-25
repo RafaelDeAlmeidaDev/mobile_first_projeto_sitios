@@ -1,0 +1,52 @@
+.contato_principal{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    gap: 0.5em;
+
+}
+
+
+form{
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+fieldset{
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid var(--cor-fonte-preto);
+    padding: 1em;
+    gap: 1em;
+    
+}
+
+input{
+    background-color: var(--cor-branco-input);
+    height: 37px;
+    font-size: 1,25em;
+    font-weight: 500;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte-preto);
+}
+
+input[type="submit"]{
+    background: var(--cor-fonte-verde);
+    border-radius: 6px;
+    width: 40%;
+    align-self: center;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    
+    
+}
+
+.contato_principal__texto-conexao{
+    font-family: var( --fonte-primaria);
+    color: var(--cor-fonte-preto);
+    font-weight: 400;
+
+}

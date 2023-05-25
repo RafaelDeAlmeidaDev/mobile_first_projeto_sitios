@@ -20,7 +20,7 @@
     max-width: 306px;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     border: 1px solid #000000;
     padding: 1em;
     font-family: --fonte-secundaria;

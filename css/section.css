@@ -9,7 +9,7 @@
 }
 
 .principal__secao{
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto 1em auto;
 }
 
