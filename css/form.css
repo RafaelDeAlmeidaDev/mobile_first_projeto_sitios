@@ -1,11 +1,14 @@
-.contato_principal{
+.contato_principal, .conteudo_form{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
     align-items: center;
     padding: 1em;
     gap: 0.5em;
 
+}
+
+.contato_principal{
+    justify-content: space-around;
 }
 
 
@@ -15,10 +18,13 @@ form{
     
 }
 
+.fieldset-contato{
+    border: 1px solid var(--cor-fonte-preto);
+}
+
 fieldset{
     display: flex;
     flex-flow: column nowrap;
-    border: 1px solid var(--cor-fonte-preto);
     padding: 1em;
     gap: 1em;
     
