@@ -1,10 +1,22 @@
-
+.principal{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
 
 .posts{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.posts_depoimentos{
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 .principal__titulo{
     display: block;
@@ -13,6 +25,10 @@
     font-size: 2em;
     margin-bottom: 0.5em;
     
+}
+
+.depoimentos_titulo_principal{
+    font-weight: 700;
 }
 
 .card{
@@ -53,4 +69,8 @@
     color: var(--cor-fonte-branca);
     text-decoration: none;
     border-radius: 12px;
+}
+
+.depoimentos_titulo{
+    margin: 1em auto;
 }

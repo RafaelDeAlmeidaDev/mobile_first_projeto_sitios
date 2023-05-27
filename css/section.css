@@ -38,3 +38,10 @@
 .principal__secao__article__container__titulo{
     margin: 0;
 }
+
+.destaque_links_depoimentos a{
+    font-weight: 700;
+    color: var(--cor-fonte-preto);
+    font-size: 1.2em;
+
+}
